@@ -44,5 +44,5 @@ function translation() {
     }
 }
 
-const changeBinding = ["Change Binding", "", "Zuordnung ändern", "", "", "", "", "", "", "", "", "", ""];
-const clear = ["Clear", "", "Entfernen", "", "", "", "", "", "", "", "", "", ""]
+const changeBinding = ["Change Binding", "Modifier", "Belegung ändern", "Cambiar", "Cambiar", "Cambia", "Изменить назначение", "解除", "Zmień przypisanie", "Alterar atribuição", "키 할당 변경", "更改键位绑定", "變更按鍵綁定"];
+const clear = ["Clear", "Supprimer", "Entfernen", "Borrar", "Borrar", "Cancella", "Удалить назначение", "変更", "Usuń przypisanie", "Remover", "키 할당 해제", "清除键位绑定", "清除按鍵綁定"]
