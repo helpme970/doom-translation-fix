@@ -14,6 +14,7 @@ Fix hardcoded translations in Doom + Doom II
 |File|Explanation|
 |-|-|
 |index original.js|original unmodified version|
+|index deobfuscated.js|`index original.js` deobfuscated, see JS Tools for the used tool|
 |index fixed.js|original file with the translation fix|
 |owncode.js|the code for the fix, that is applied to `index original.js`|
 
