@@ -10,10 +10,21 @@ Fix hardcoded translations in Doom + Doom II
 > If you find a translation bug or the fix does not work, please report it to me via the issue section.
 
 ## Developer notes
-index.js taken from Common.kpf/menu/
+### JS
+index.js taken from <path-to-game>/Common.kpf/menu/
 
 Tools used:
 | Tool                    | Link                                     |
 |-------------------------|------------------------------------------|
 | Javascript deobfuscator | https://willnode.github.io/deobfuscator/ |
 | Javascript compressor   | https://jscompressor.treblereel.dev/     |
+
+### KPF
+"KEX program file" or "KEX Pack File"
+
+Zip-File compressed with Deflate or just stored without compression
+
+Resources:
+- https://www.doom64.com/structures/kpf/
+- https://doomwiki.org/wiki/KPF
+- https://doomwiki.org/wiki/Common.kpf
