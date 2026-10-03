@@ -10,7 +10,14 @@ Fix hardcoded translations in Doom + Doom II
 > If you find a translation bug or the fix does not work, please report it to me via the issue section.
 
 ## Developer notes
-### JS
+### File
+|File|Explanation|
+|-|-|
+|index original.js|original unmodified version|
+|index fixed.js|original file with the translation fix|
+|owncode.js|the code for the fix, that is applied to `index original.js`|
+
+### JS Tools
 index.js taken from <path-to-game>/Common.kpf/menu/
 
 Tools used:
