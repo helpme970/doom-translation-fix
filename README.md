@@ -9,6 +9,11 @@ Fix hardcoded translations in Doom + Doom II
 
 > If you find a translation bug or the fix does not work, please report it to me via the issue section.
 
+|State|Image|
+|-|-|
+|Before|<img width="960" height="540" alt="Bildschirmfoto_20261004_191350" src="https://github.com/user-attachments/assets/09a51009-f979-42b7-a496-263ffd4875c1" />|
+|After|<img width="960" height="540" alt="Bildschirmfoto_20261004_191434" src="https://github.com/user-attachments/assets/0771e2ed-9504-4c0b-826e-92a2fe75936a" />|
+
 ## Developer notes
 ### File
 | File                  | Explanation                                                     |
