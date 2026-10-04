@@ -2,7 +2,7 @@
 Fix hardcoded translations in Doom + Doom II
 
 ## Installation
-1. Download the fixed translations from [here](https://github.com/helpme970/doom-translation-fix/releases/download/1.1/Common.kpf)
+1. Download the fixed translations from [here](https://github.com/helpme970/doom-translation-fix/releases/download/1.2/Common.kpf)
 2. Put the downloaded file into the main game folder (e.g. C:\GOG Games\DOOM + DOOM II\)
 3. Override the file if prompted
 4. Enjoy the game
@@ -11,12 +11,13 @@ Fix hardcoded translations in Doom + Doom II
 
 ## Developer notes
 ### File
-|File|Explanation|
-|-|-|
-|index original.js|original unmodified version|
-|index deobfuscated.js|`index original.js` deobfuscated, see JS Tools for the used tool|
-|index fixed.js|original file with the translation fix|
-|owncode.js|the code for the fix, that is applied to `index original.js`|
+| File                  | Explanation                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| index original.js     | original unmodified version                                     |
+| index deobfuscated.js | `index original.js` deobfuscated, see JS Tools for the used tool|
+| index fixed.js        | original file with the translation fix                          |
+| owncode.js            | the code for the fix, that is applied to `index original.js` (deprecated)    |
+| doom.py               | Python program to patch the index.js                            |
 
 ### JS Tools
 index.js taken from <path-to-game>/Common.kpf/menu/
